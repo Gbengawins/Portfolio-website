@@ -105,3 +105,26 @@ a {
     border: 1px solid #fff;
     color: #fff;
 }
+
+.footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    align-content: baseline;
+    justify-items: baseline;
+    font-size: 1.3em;
+    margin-bottom: 40px;
+}
+
+.bx {
+    color: #6c6b6b;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.bx:hover:nth-child(1) {
+    border: .5px solid black;
+    border-radius: 50%;
+    color: black !important;
+}
+
